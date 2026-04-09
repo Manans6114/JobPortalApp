@@ -63,4 +63,8 @@ public class JobRestController {
         service.load();
         return "success";
     }
+
+//    if(job.getTitle() == null || job.getTitle().isEmpty()){
+//        throw new RuntimeException("Title cannot be empty");
+//    }
 }
